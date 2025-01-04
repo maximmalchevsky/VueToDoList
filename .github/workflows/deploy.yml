@@ -32,10 +32,10 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: cd frontend && npm ci # Navigate to frontend and install
+        run: cd ToDoList && npm ci # Navigate to frontend and install
 
       - name: Build
-        run: cd frontend && npm run build # Navigate to frontend and build
+        run: cd ToDoList && npm run build # Navigate to frontend and build
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
