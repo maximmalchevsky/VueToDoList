@@ -44,7 +44,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload dist folder, relative to your build directory
-          path: './ToDoList/dist'  # Updated path to point to dist within frontend
+          path: '../ToDoList/dist'  # Updated path to point to dist within frontend
 
       - name: Deploy to GitHub Pages
         id: deployment
